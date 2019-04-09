@@ -1,0 +1,71 @@
+<html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<head>
+		<title>Bubble Cursor</title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet"  type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class='expc'>
+		<canvas id="exp_canvas"></canvas>
+		<canvas id="cursor"></canvas>
+	</div>
+
+
+	<div class='balabar'>
+		<div class=" mx-auto rounded-full bg-indigo-darker w-full flex items-center">
+<span class="bg-green-dark text-white tracking-wide text-xs w-auto m-2 inline-block rounded-full py-1 px-2">*</span>
+
+		<div class='messagec'>
+			<div id='report' class="txt w-2/3 sm:w-full text-white text-sm text-indigo-lightest">Please select the Cursor Mode</div>
+		</div>
+		</div>
+<div id="myprogress">
+  
+</div>
+
+<div class="radio">  
+  <label>  <input class="radio" type='radio' name='cursorMode' value='Bubble'> Bubble</label>
+</div>
+<div class="radio">
+  <label><input class="radio" type='radio' name='cursorMode' value='Normal' > Normal</label>
+</div>
+
+		<div class='inputc'>
+			<input style="width: 100px;" class="btn-info" id='strbtn' type='button' value='Start' disabled>
+			<a href="form.html"  target="_blank"  class="btn btn-primary">Demographics Form</a>
+		</div>
+		<div >
+			
+
+		</div>
+<div id="demographic">
+</div>
+		<div class='hidden'>
+			Your Name: <input class="form-control" id='exp_report' type='text' style="width: 15%;">
+			<input class="btn-info" id='downloadbtn' type='button' value='Download Test Data' disabled>
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+	
+ $('.radio').click(function()
+{
+  $('#strbtn').removeAttr("disabled");
+});
+
+
+</script>
+
+<script type="text/javascript" src="main.js"></script>

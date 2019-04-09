@@ -1,0 +1,192 @@
+
+
+.mdiv{
+
+ width: 50%;
+  margin: 0 auto;
+
+}
+
+/*#demographic{
+	margin-left: 30%;
+}*/
+
+#exp_canvas {
+	background-color: transparent;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	z-index: 999;
+
+}
+
+#cursor {
+	background-color: transparent;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	z-index: -1;
+	position: relative;
+	top: -523px;
+}
+
+#report {
+
+    color: #882424;
+    align-content: center;
+    font-size: x-large;
+    font-weight: 300;
+
+}
+
+
+
+.hidden{
+
+display: none;
+
+}
+
+
+
+.title{
+	margin-top: 20%;
+}
+
+
+body {
+	margin: 0;
+}
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+hr {
+	box-sizing: content-box;
+	height: 0px;
+	overflow: visible;
+}
+*, ::after, ::before {
+	box-sizing: inherit;
+}
+*, ::after, ::before {
+	border-width: 0;
+	border-style: solid;
+	border-color: #dae1e7;
+}
+.flex {
+	display: flex;
+}
+.items-center {
+	align-items: center;
+}
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.content {
+	max-width: 400px;
+}
+.bg-indigo-darkest {
+	background-color: #191e38;
+}
+.font-sans {
+	font-family: system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.min-h-screen {
+	min-height: 100vh;
+}
+.p-4 {
+	padding: 1rem;
+}
+.pt-8 {
+	padding-top: 2rem;
+}
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+.bg-indigo-darker {
+	background-color: #2f365f;
+}
+.bg-green-dark {
+	background-color: #1f9d55;
+}
+.rounded-full {
+	border-radius: 9999px;
+}
+.w-full {
+	width: 100%;
+}
+.border-indigo-darker {
+	border-color: #2f365f;
+}
+.border-b {
+	border-bottom-width: 1px;
+}
+.my-8 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.px-2 {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.text-white {
+	color: #fff;
+}
+.inline-block {
+	display: inline-block;
+}
+.m-1 {
+	margin: .25rem;
+}
+.m-2 {
+	margin: .5rem;
+}
+.py-1 {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+
+.green {
+	color: #1d8353;
+}
+
+.balabar {
+	position: relative;
+	top: -523px;
+}
+
+
+.text-xs {
+	font-size: 0.75rem;
+}
+.tracking-wide {
+	letter-spacing: 0.05em;
+}
+.w-auto {
+	width: auto;
+}
+.text-indigo-lightest {
+	color: #e6e8ff;
+}
+.text-sm {
+	font-size: 0.87rem;
+}
+.w-2/3 {
+	width: 66.66%;
+}
+/* @media all and (min-width:576px) */
+.sm:w-full {
+	width: 100%;
+}
+.news span.txt {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
